@@ -167,6 +167,11 @@ h3 {
 .btn svg {
     margin-right: 8px;
 }
+svg {
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    filter: drop-shadow(2px 2px 2px black);
+    transition: all 0.25s ease-in-out;
+}
 
 svg:hover {
     background-color: lime;
