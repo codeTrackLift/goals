@@ -101,6 +101,7 @@ h3 {
 }
 
 .goal {
+    border-radius: 6px;
     border: 1px solid white;
     background-color: transparent;
     margin: 10px 0;
@@ -165,6 +166,11 @@ h3 {
 
 .btn svg {
     margin-right: 8px;
+}
+
+svg:hover {
+    background-color: lime;
+    border-radius: 4px;
 }
 
 .btn-reverse {

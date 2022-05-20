@@ -36,11 +36,11 @@ function GoalItem({ goal }) {
                             style={{fontSize:'1rem'}}
                         />
                     </div>
-                    <button type='button' className='goal-save-icon' onClick={onUpdateGoal} style={{border:'none',color:'cornflowerblue',backgroundColor:'transparent'}}>
+                    <p style={{color:'cornflowerblue'}}>Save?</p>
+                    <button type='button' className='goal-save-icon' onClick={onUpdateGoal} style={{border:'none',color:'cornflowerblue',backgroundColor:'transparent',marginInline:'1rem'}}>
                         <FaSave size={25} />
                     </button>
-                    <span style={{marginInline:'1rem',color:'cornflowerblue'}}>Save Changes?</span>
-                    <button type='button' className='goal-skip-save-icon' onClick={() => setShowEditForm(prevState => !prevState)} style={{border:'none',color:'cornflowerblue',backgroundColor:'transparent'}}>
+                    <button type='button' className='goal-skip-save-icon' onClick={() => setShowEditForm(prevState => !prevState)} style={{border:'none',color:'cornflowerblue',backgroundColor:'transparent',marginInline:'1rem'}}>
                         <FaTimesCircle size={25} />
                     </button>
                 </form>
