@@ -52,7 +52,7 @@ function GoalItem({ goal }) {
                             style={{fontSize:'0.75rem',width:'90%'}}
                         />
                     </div>
-                    <p style={{color:'cornflowerblue'}}>Save?</p>
+                    <p style={{color:'gray'}}>Save?</p>
                     <button 
                         className='goal-save-icon' 
                         type='button' 
@@ -72,13 +72,13 @@ function GoalItem({ goal }) {
             ) : (
                 <div className="goal-text-wrapper">
                     <hr style={{marginInline:'1rem'}} />
-                    <h3>{goal.text}</h3>
+                    <p style={{color:'lime'}}>{goal.text}</p>
                     <button 
                         className='goal-edit icon' 
                         style={updateButtonStyle}
                         onClick={() => setShowEditForm(prevState => !prevState)}
                     >
-                        <FaRegEdit size={20}/> Update
+                        <FaRegEdit size={20}/> <span style={{color:'gray'}}>Update</span>
                     </button>
                 </div>
             )}
@@ -87,7 +87,7 @@ function GoalItem({ goal }) {
                 style={{margin:'-0.5rem',color:'cornflowerblue',}}  
                 onClick={onDeleteGoal}
             >
-                <span>Delete </span><FaRegWindowClose size={20}/>
+                <span style={{color:'gray'}}>Delete </span><FaRegWindowClose size={20}/>
             </button>
         </div>
     )

@@ -38,7 +38,7 @@ function Dashboard() {
 
     return <>
         <section className="heading">
-            <h1>Welcome {user && capitalize(user.name)}</h1>
+            <h1><span style={{color:'silver'}}>Welcome</span> {user && capitalize(user.name)}</h1>
             <p>Goals Dashboard</p>
         </section>
 
@@ -52,7 +52,7 @@ function Dashboard() {
                     })}
                 </div>
             ) : ( 
-                <h3>You have no goals</h3>
+                <h3 style={{color:'silver'}}>You have no goals</h3>
             )}
         </section>
     </>

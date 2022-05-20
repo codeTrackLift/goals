@@ -91,7 +91,7 @@ h3 {
 }
 
 .heading p {
-    color: cornflowerblue;
+    color: silver;
 }
 
 .goals {
@@ -144,6 +144,8 @@ h3 {
     border-radius: 5px;
     margin-bottom: 10px;
     font-family: inherit;
+    background-color: transparent;
+    color: white;
 }
 
 .form-group label {

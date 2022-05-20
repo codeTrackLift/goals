@@ -33,7 +33,7 @@ export const Footer = () => {
 
             <div id='socials'>
                 <br/>
-                <a href="https://github.com/codeTrackLift/" 
+                <a href="https://github.com/codeTrackLift/goals#readme" 
                     target="_blank" rel='noreferrer'>
                     <img src={gitHub} id='gitHubLogo'
                         className='socialLogo' alt="GitHub Icon"/>
