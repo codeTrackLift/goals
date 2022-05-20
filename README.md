@@ -18,7 +18,7 @@
 ## About
 This was developed during Bootcamp Week 15, our 'break week' between the front end BadBank Project and the final trimester where we dive in to the back-end.  
 
-I wanted to get some preliminary exposure to MongoDB and express, so I build this full stack MERN App following Traversy Media's YouTube Video: https://youtu.be/-0exw-9YJBo.
+I wanted to get some preliminary exposure to MongoDB and express, so I built and deployed this full stack MERN App following Traversy Media's YouTube Playlist: [Learn the MERN Stack](https://youtube.com/playlist?list=PLillGF-RfqbbQeVSccR9PGKHzPJSWqcsm).
 
 
 ## How to Run
