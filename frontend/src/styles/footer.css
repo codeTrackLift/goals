@@ -47,6 +47,11 @@
     margin: 1rem auto;
 }
 
+#socials {
+    border-top: 1px solid #e6e6e6;
+    margin-top: 2rem;
+}
+
 #socials>a>img {
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;

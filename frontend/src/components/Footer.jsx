@@ -1,11 +1,11 @@
 import React from 'react';
 
-import youtube from '../../images/yt_logo_light.png'
-import gitHub from '../../images/gitHubLogoWhite.png';
-import twitter from '../../images/twitterLogoBlue.png';
-import linkedIn from '../../images/linkedInLogoBlue.png';
+import youtube from '../images/yt_logo_light.png'
+import gitHub from '../images/gitHubLogoWhite.png';
+import twitter from '../images/twitterLogoBlue.png';
+import linkedIn from '../images/linkedInLogoBlue.png';
 
-import '../../styles/footer.css';
+import '../styles/footer.css';
 
 const footerStyle ={
     width: '100%',
@@ -32,7 +32,7 @@ export const Footer = () => {
         <footer style={footerStyle}>
 
             <div id='socials'>
-                <br/><br/>
+                <br/>
                 <a href="https://github.com/codeTrackLift/" 
                     target="_blank" rel='noreferrer'>
                     <img src={gitHub} id='gitHubLogo'
