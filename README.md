@@ -1,4 +1,4 @@
-# GoalSetter | MERN App | Heroku
+# <img src='./frontend/public/favicon.ico' height='23' alt='Green checkered flag'> GoalSetter | MERN App | Heroku
 
  ***Try Demo:*** [https://goalsbypete.herokuapp.com/](https://goalsbypete.herokuapp.com/)
 

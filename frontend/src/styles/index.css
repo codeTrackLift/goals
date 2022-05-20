@@ -35,16 +35,12 @@ li {
 }
 
 h1,
+h2,
 h3 {
     font-weight: 600;
     margin-bottom: 10px;
     color: white;
     text-shadow: 1px 1px 1px black;
-}
-
-h2 {
-    font-weight: 600;
-    color: black;
 }
 
 .container {
@@ -60,7 +56,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid gray;
     margin-bottom: 60px;
 }
 
@@ -105,7 +101,8 @@ h2 {
 }
 
 .goal {
-    background-color: #f4f4f4;
+    border: 1px solid white;
+    background-color: transparent;
     margin: 10px 0;
     padding: 20px 0 10px;
     position: relative;
@@ -163,6 +160,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.25s ease-in-out;
 }
 
 .btn svg {
@@ -180,10 +178,9 @@ h2 {
 }
 
 .btn:hover {
-    /* transform: scale(0.98); */
     background-color: transparent;
     color: lime;
-    border: 2px solid black;
+    border: 2px solid lime;
 }
 
 .loadingSpinnerContainer {
