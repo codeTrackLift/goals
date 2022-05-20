@@ -1,12 +1,11 @@
->This app was built following 
-
 # Goal Setter | MERN App
 
 >**Skills Utilized**:
 
-<img src='https://codetracklift.github.io/codeTrackLift/logos/mernStackTrans.png' alt='MIT xPro logo' width='90'> 
+<img src='https://codetracklift.github.io/codeTrackLift/logos/mernStackTrans.png' alt='MIT xPro logo' width='150'> 
+
+
 <ol>
-    <li>Languages: HTML, CSS, JavaScript</li>
     <li>MongoDB, Express, React, Node</li>
     <li>JSON Web Tokens</li>
     <li>React Router DOM</li>
